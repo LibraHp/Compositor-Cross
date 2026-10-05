@@ -1,5 +1,7 @@
 # Compositor
 
+中文 | [English](README.en.md)
+
 跨平台图层合成与图像编辑器。用 Rust 和 [egui](https://github.com/emilk/egui) 写成，可在 Windows、macOS 和 Linux 上运行，并能打开、保存 macOS 版 [Compositor](https://github.com/robbietilton/Compositor) 的 `.comp` 工程。
 
 当前版本 **0.1.0**。
@@ -12,7 +14,7 @@
 - `compositor-macos-arm64.tar.gz`
 - `compositor-linux-x64.tar.gz`
 
-压缩包里有可执行文件、本说明和 MIT 许可证。Windows 版是 `compositor.exe`，双击即可运行。
+压缩包里有可执行文件、中英文说明和 MIT 许可证。Windows 版是 `compositor.exe`，双击即可运行。
 
 发布新版本时，把 `Cargo.toml` 里的 `version` 改成同一个号，然后推送匹配的标签：
 

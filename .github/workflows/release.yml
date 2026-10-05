@@ -89,7 +89,7 @@ jobs:
           stage="stage"
           mkdir -p "$stage"
           cp "target/${{ matrix.target }}/release/${{ matrix.binary }}" "$stage/"
-          cp README.md LICENSE "$stage/"
+          cp README.md README.en.md LICENSE "$stage/"
           if [ "${{ runner.os }}" = "Windows" ]; then
             powershell -NoProfile -Command "Compress-Archive -Path stage\\* -DestinationPath ${{ matrix.archive }} -Force"
           else
